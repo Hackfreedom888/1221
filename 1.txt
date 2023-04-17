@@ -1,0 +1,5 @@
+git fetch
+git merge origin/master
+git merge --allow-unrelated-histories origin/master
+git commit -m "提交说明"
+git push origin master
